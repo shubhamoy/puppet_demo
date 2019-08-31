@@ -1,1 +1,3 @@
-# puppet_demo
+# Puppet Review
+
+Getting started with Puppet. 

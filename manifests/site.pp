@@ -8,7 +8,9 @@ node 'master.puppet.vm' {
     content => "Welcome to the world of ${fqdn}\n",
   }
 }
-
+node 'mine.puppet.vm' {
+  include role::minecraft_server
+}
 node /^web/ {
   include role::app_server
 }

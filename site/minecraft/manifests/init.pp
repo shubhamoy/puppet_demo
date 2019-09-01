@@ -1,6 +1,7 @@
 class minecraft {
   file {'/opt/minecraft/':
     ensure => directory,
+    recurse => true,
     mode   => '0755' 
   }
   file {'/opt/minecraft/server.jar':

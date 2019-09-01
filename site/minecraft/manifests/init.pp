@@ -1,7 +1,7 @@
 class minecraft {
   file {'/opt/minecraft/':
     ensure => directory,
-    mode   => 0755 
+    mode   => '0755' 
   }
   file {'/opt/minecraft/server.jar':
     ensure => file,

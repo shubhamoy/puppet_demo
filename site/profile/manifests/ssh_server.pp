@@ -10,6 +10,6 @@ class profile::ssh_server {
 		ensure => present,
 		user   => 'root',
 		type   => 'ssh-rsa',
-		key    => 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDXZXNnKPwcRM3+WTYrgbKhNBZeyq7utKdGYjB1vSlMWa9FaX4EAJ+MZotIMKQTXHrZCiw8IxwLvBzVUqqMTG7POmpHOHyaH1PECorDETuF++9NH/MF+hOHgIUlZU8yutRE9YmDaeYZP3QfKmlHCDbp49E354rPjEAxrZU2h4Y9hL1sDEHGDtj6j1K2x3yUVY04bOZeL+UM2wfxJQ7bRhB33Ny7Jv7b/E2Y0Fl007aGmUOUw2tM6G0Lm8XgyLaCq3f/1s3aJYr73otHR68AO3Pk6UlHcIqwzibkS5g+YKcMLAVTbu1hjFK/NIXzODZGtTK72onhORqMtIclBqOsq9fb root@master.puppet.vm',
+		key    => 'AAAAB3NzaC1yc2EAAAADAQABAAABAQDPNjssHDy/saLBAAu4AmJj03m7ZBU0IvLDibBYZhMpaIQPTm0d8IGACDaMaxEAXkq9FUKs1yTu0eRNCbUlxw9JTAhixOIakDX6TAPPxblOGHM2y4JGB4jIEiAOD3rvz/rlIDqA4zyaOHaZz+sWHLIpnrcj4cH6NGB9hInLUydrH+eICe7l6M+SKhRZjLh4aR3Iiwaj0a3oDRryk0kJhSNuMgU12Rnz1Ok+BWMg3tWMhKzao3lpjEvtuA7hoUeDJnzyja1d/pS3VNRmGksHRsgUEYIz5SkJ3PR7zCsgRiWPndY357w7p3AzoBOw2WPw+dnLm/lDOrzAPjGmNMdE4bIb',
 	}  
 }
